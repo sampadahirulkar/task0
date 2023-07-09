@@ -1,0 +1,40 @@
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000; /* Black color */
+    color: #fff; /* White text color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchBar {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .searchBar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff; /* White text field background */
+    color: #000; /* Black text color */
+  }
+  
+  .searchBar button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #00f; /* Blue color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+  }
+  
+  .searchBar button[type="submit"]:hover {
+    background-color: #0000cc; /* Darker blue color */
+  }
+  
